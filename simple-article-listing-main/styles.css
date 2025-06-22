@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tipografía y fondo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;  /* Fondo oscuro */
+  color: #e0e0e0;             /* Texto claro */
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #90caf9; /* Azul claro */
+  margin-bottom: 0.5rem;
+}
+
+header img {
+  margin-top: 0.5rem;
+  filter: brightness(0.7); /* Para que combine con fondo oscuro */
+}
+
+/* Artículos */
+main {
+  display: grid;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+article {
+  display: flex;
+  gap: 1.5rem;
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.08);
+}
+
+article img {
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #333;
+}
+
+/* Texto del artículo */
+article h2 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+article time {
+  font-size: 0.9rem;
+  color: #b0bec5; /* gris claro */
+}
