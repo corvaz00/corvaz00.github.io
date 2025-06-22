@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejercicio 8</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <link rel="stylesheet" href="./index2.css" type="text/css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="icon">
+            <img src="img/alarado-icon-homepage.svg" alt="icono de ALARADO">
+        </div>
+        <div class="menu_btn" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="nav" id="myNav">
+            <div class="nav_btn">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div id="nav_btn_1">Sobre nosotros</div>
+                <div id="nav_btn_2">Producto</div>
+                <div id="nav_btn_3">Recursos</div>
+                <div id="nav_btn_4">Contacto</div>
+            </div>
+            <div class="container">
+                <label class="switch">
+                    <span class="moon"></span>
+                    <span class="sun"></span>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="Main">
+        <div class="container_1">
+            <h3>😎 UNA FORMA SENCILLA DE COMUNICARSE</h3>
+            <div>
+                <h1>Acciones para la Accesibilidad en el Diseño</h1>
+            </div>
+            <div>
+                <p>La forma más rápida de construir y lanzar sitios web con componentes reutilizables.</p>
+            </div>
+            <div class="a">
+                <button>COMENZAR</button>
+                <span>Ver demostración en vivo</span>
+            </div>
+        </div>
+
+        <div class="container_2">
+            <img id="content_img" src="img/hero-image-simple-homepage.png" alt="imagen principal">
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <img src="img/Done_ring_round_fill.svg" alt="ícono de verificación">
+            <p>No se requiere tarjeta de crédito</p>
+        </div>
+        <div>
+            <img src="img/Done_ring_round_fill.svg" alt="ícono de verificación">
+            <p>No es necesario instalar software</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

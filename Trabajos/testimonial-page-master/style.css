@@ -1,0 +1,130 @@
+/* Base & Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+:root {
+    --yellow: #F5C044;
+    --green: #4CA154;
+    --dark: #18181B;
+    --gray: #52525A;
+    --sora-font: 'Sora', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20px;
+    color: #52525A;
+}
+
+
+h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #52525A;
+}
+
+ul {
+  list-style-image: url('images/Done_ring_round_fill.svg');
+}
+
+main {
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FAFAF9;
+}
+
+
+
+
+/* Class */
+.circle {
+    width: 45px;
+    height: 45px;
+    background-color: #F5C044;
+    border-radius: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    font-size: 14px;
+    color: #52525A;
+    font-weight: lighter;
+    list-style: none;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.section {
+    padding: 50px;
+    width: 50%;
+    margin: 0 10px;
+}
+
+
+.logo {
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+
+.google {
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.meta {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 400px;
+}
+
+.top-box {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    margin-top: 15px;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+
+
+

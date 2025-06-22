@@ -1,0 +1,219 @@
+@media screen and (min-width: 561px)and (max-width: 819px){
+    body{
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+  
+    .header, .Main{
+        width: 100%;
+        max-width: 640px;
+    }
+  
+    .Main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .container_2{
+        order: 1;
+        max-width: 540px;
+        margin-bottom: 92px;
+      }
+  
+    .container_1{
+        max-width: 540px;
+        order: 2;
+      }
+  
+    .footer{
+        max-width: 540px;
+    }
+  
+    .menu_btn {
+        display: block;
+        position: relative;
+        font-size: 14px;
+    }
+    
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+  
+    .nav {
+        display: inline-block;
+        cursor: pointer;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0; /* Change from left to right */
+        background-color: #FFFFFF;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+  
+  .nav div {
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  
+  .nav .nav_btn div {
+      padding: 30px 30px 30px 30px;
+      font-size: 48px;
+
+      text-align: center;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .container{
+    padding: 30px 30px 30px 30px;
+    display: block;
+    text-align: center
+  }
+
+  .closebtn {
+      display: inline;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 60px;
+      font-weight: 300;
+      margin-left: 50px;
+      color: #111729;
+      text-decoration: none;
+   }
+
+   body.dark .nav{
+    background-color: #111729;
+   }
+
+   body.dark .closebtn{
+    color: #909193;
+   }
+
+}
+
+@media screen and (max-width: 560px){
+    body{
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+  
+    .header, .Main{
+        width: 100%;
+        max-width: 425px;
+    }
+    .header{
+        margin-bottom: 50px;
+    }
+  
+    .Main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .container_2{
+        order: 1;
+        max-width: 375px;
+        margin-bottom: 50px;
+      }
+  
+    .container_1{
+        max-width: 350px;
+        order: 2;
+      }
+
+    .container_1 h3, .container_1 p, .container_1 .a button, .container_1 .a span {
+        font-size: 14px;
+    }
+
+    .container_1 h1{
+        font-size: 48px;
+    } 
+  
+    .footer{
+        max-width: 350px;
+    }
+
+    .footer div p{
+        font-size: 10px;
+    }
+
+    .menu_btn {
+        display: block;
+        position: relative;
+    }
+    
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+  
+    .nav {
+        display: inline-block;
+        cursor: pointer;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0; /* Change from left to right */
+        background-color: #FFFFFF;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+  
+  .nav div {
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+  
+  .nav .nav_btn div {
+      padding: 30px 30px 30px 30px;
+      font-size: 25px;
+      text-align: center;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .container{
+    padding: 30px 30px 30px 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .closebtn {
+      display: inline;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 60px;
+      font-weight: 300;
+      margin-left: 50px;
+      color: #111729;
+      text-decoration: none;
+   }
+
+   body.dark .nav{
+    background-color: #111729;
+   }
+
+   body.dark .closebtn{
+    color: #909193;
+   }
+}
